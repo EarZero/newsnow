@@ -53,6 +53,8 @@ export function SearchBar() {
   )
   const inputRef = useRef<HTMLInputElement | null>(null)
 
+  // eslint-disable-next-line ts/ban-ts-comment
+  // @ts-expect-error
   const [value, setValue] = useState<SourceID>("github-trending-today")
 
   useMount(() => {
