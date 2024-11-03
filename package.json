@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/ourongxing/newsnow",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint",
     "source": "tsx ./scripts/favicon.ts && tsx ./scripts/pinyin.ts",
